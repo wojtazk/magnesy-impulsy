@@ -1,2 +1,6 @@
-# magnesy-impulsy
-Projekt nr 3 na EBSiS
+# Zadanie projektowe nr 3
+Symulacja (wizualizacja w czasie/częstotliwości) impulsu zaburzenia elektromagnetycznego na podstawie zależności matematycznej opisującej zjawisko
+
+---
+
+
