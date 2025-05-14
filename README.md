@@ -3,4 +3,5 @@ Symulacja (wizualizacja w czasie/częstotliwości) impulsu zaburzenia elektromag
 
 ---
 
+ikonka: https://pixabay.com/vectors/satellite-dish-antenna-satellite-153708/
 
