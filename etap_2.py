@@ -34,8 +34,8 @@ class App(tk.Tk):
             (tk.StringVar(value="1.00"), "t_1: "),
             (tk.StringVar(value="1.00"), "t_2: "),
             (tk.StringVar(value="1.00"), "n: "),
-            (tk.StringVar(value="4.0"), "f:"),
-            (tk.StringVar(value="0.00"), "φ"),
+            (tk.StringVar(value="4.0"), "f [Hz]: "),
+            (tk.StringVar(value="0.00"), "φ [PI]: "),
         ]
         # dodawanie do okienka
         for var in self.variables:
@@ -87,14 +87,15 @@ class App(tk.Tk):
         k = float(self.variables[3][0].get().replace(",", "."))
         t_1 = float(self.variables[4][0].get().replace(",", "."))
         t_2 = float(self.variables[5][0].get().replace(",", "."))
-        f = float(self.variables[6][0].get().replace(",", "."))
-        phi = float(self.variables[7][0].get().replace(",", "."))
+        n = float(self.variables[6][0].get().replace(",", "."))
+        f = float(self.variables[7][0].get().replace(",", "."))
+        phi = float(self.variables[8][0].get().replace(",", "."))
 
         # punkty w czasie
         t = np.linspace(0, t_obs, int(fs * t_obs), endpoint=False)
 
-        # generowanie sygnału 1: y(t) = A * sin(2π * f * t  + phi)
-        y = a * np.sin(2 * np.pi * f * t + phi * np.pi)
+        # generowanie sygnału
+        y = a * k * ((t/t_1)**n / (1+ (t/t_1)**n)) * np.exp(-(t/t_2)) * np.cos(2 * np.pi * f * t + phi * np.pi)
 
         # przygotowanie okna
         w_type = self.win_var.get()
