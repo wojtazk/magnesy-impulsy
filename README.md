@@ -8,13 +8,18 @@ ikonka: https://pixabay.com/vectors/satellite-dish-antenna-satellite-153708/
 ## Etap I
 Sygnały sinusoidalne.
 
+<img
+    src="https://latex.codecogs.com/png.image?\LARGE&space;\dpi{100}\bg{white}y(t)=A\,\sin\bigl(2\pi&space;f&space;t&plus;\varphi\bigr)" 
+    alt="sinusoid equation"
+  />
+
 ![sinusoidy_1](https://github.com/user-attachments/assets/92194f8c-f23c-4e3c-a654-4e7d3aace25b)
 
 ![sinusoidy_2](https://github.com/user-attachments/assets/d0055219-a4a6-452f-8241-c652c0c09e52)
 
 
 ## Etap II
-Sygnał w(t) jest opisany następującą funkcją:
+Sygnał `w(t)` jest opisany następującą funkcją:
 
 <!-- inline png from CodeCogs (https://editor.codecogs.com/) -->
 <img
