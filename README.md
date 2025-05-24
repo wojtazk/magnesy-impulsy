@@ -42,9 +42,9 @@ $$
 
 - A – amplituda sygnału  
 - K – wzmocnienie (skala)  
-- t_1 – stała czasowa „narastania” (połowa nasycenia)  
+- t<sub>1</sub> – stała czasowa „narastania” (połowa nasycenia)  
 - n – wykładnik narastania  
-- t_2 – stała czasowa tłumienia wykładniczego  
+- t<sub>2</sub> – stała czasowa tłumienia wykładniczego  
 - f – częstotliwość sygnału harmonicznego  
 - φ – faza początkowa
 
