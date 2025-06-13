@@ -52,3 +52,21 @@ $$
 
 ![etap2_2](https://github.com/user-attachments/assets/7601ba23-d91c-41cd-bbda-250d5389c4fe)
 
+--- 
+
+## Gify
+
+![magnesy_gif_1](https://github.com/user-attachments/assets/f0d1e18f-4f91-4145-8c39-fd1545b34fa4)
+![magnesy_gif_2](https://github.com/user-attachments/assets/530e254f-17c9-4a7b-ab40-80743f463348)
+![magnesy_gif_3](https://github.com/user-attachments/assets/9a57e181-aa84-432e-aaf1-76b70b93b4de)
+![magnesy_gif_4](https://github.com/user-attachments/assets/82604907-040f-4250-9fc8-d96cfd390aae)
+![magnesy_gif_5](https://github.com/user-attachments/assets/6aaa9a0d-a71f-468e-8098-1de342cfcc89)
+
+
+
+
+
+
+
+
+
